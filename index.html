@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Register</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+
+    <header><h3></h3></header>
+
+    <main>
+
+        <section id="logar">
+            
+            <form id="form">
+                    <header id="teste"><a>LOGIN</a></header>
+                    <label id="emailName" for="email">Username</label>
+                    <input type="email" name="email" id="email" placeholder="email@email.com" required >
+                    <label id="senhaName" for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="password" required minlength="8">
+                    <input type="text" name="newSenha" id="esqueceu">
+                    <button type="menu" id="newSenha">Esqueceu sua senha?</button>
+                    <button type="submit" id="entrar">Entrar</button>
+                    <label id="novaConta" for="novaConta">Não possuí uma conta? <button onclick="mostrarForm()" type="menu" id="newAccount">Criar Conta</button></label>
+            
+            </form>
+        </section>
+
+        <section>
+
+            <form id="sla">
+                         
+            </form>
+
+        </section>
+    
+    </main>
+</body>
+
+<script src="./assets/script.js"></script>
+</html>

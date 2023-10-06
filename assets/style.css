@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: #323232;
+    border: none;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+main{
+    background-color: #ffffff;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 70px;
+}
+
+form{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-top: 100px;
+    border-radius: 15px;  
+    flex-direction: column;
+}
+
+#teste{
+    margin-bottom: 40px;
+    margin-top: 10px; 
+}
+
+a{
+    font-size: xx-large;
+    color: black;
+    font-weight: 550;
+    font-family: Arial;
+}
+
+#email{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 380px;
+    background-color: #607c832c;
+    border: none;
+    padding-top: 25px;
+    margin-bottom: 15px;
+    cursor: text;
+    transition: 300ms linear;
+}
+
+::placeholder{
+    font-size: medium;
+}
+
+#emailName{
+    margin-right: 61%;
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+#senhaName{
+    margin-right: 61%;
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+#email:hover{
+    transform: scale(1.02);
+    background-color: #cde3e6;
+}
+
+#password{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 380px;
+    background-color:#607c832c;
+    border: none;
+    padding-top: 25px;
+    cursor: text;
+    transition: 300ms linear;
+}
+
+#password:hover{
+    transform: scale(1.02);
+    background-color: #cde3e6
+}
+
+
+#entrar{
+    background-color: #5bb4ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: large;
+    margin-bottom: 13px;   
+    width: 380px;
+    transition: 300ms linear;
+    padding: 14px;
+}
+
+#entrar:hover{
+    transform: scale(1.02);
+    opacity: 0.6;
+}
+
+#novaConta{
+    font-family: sans-serif;
+    font-size: larger;
+    color: #323232;
+    opacity: 0.8;
+    margin-right: 14%;
+}
+
+#newAccount{
+    background-color: white;
+    font-size: large;
+    color: #5bb4ff;
+    transition: 200ms linear;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#newAccount:hover{
+    transform: scale(1.02);
+    opacity: 0.7;
+}
+
+#newSenha{
+    background-color: white;
+    color:#5bb4ff;
+    padding-left: 50%;
+    font-size: small;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: 200ms linear;
+}
+
+#newSenha:hover{
+    transform: scale(1.02);
+    opacity: 0.7;
+}
+
+
+
